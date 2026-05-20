@@ -1,16 +1,61 @@
-# React + Vite
+# Dos Dub — сайт команды озвучки
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Веб-приложение для команды озвучки **Dos Dub**, где можно смотреть аниме с разбивкой по сериям, слушать музыку, смотреть постановки и следить за новинками.
 
-Currently, two official plugins are available:
+**Проект в активной разработке.**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Планируемый функционал
 
-## React Compiler
+- 🎬 **Просмотр аниме** – страницы тайтлов с описанием, списком серий и встроенным плеером.
+- 🎵 **Музыкальный раздел** – треки, созданные командой (каверы, OST, оригинальные композиции).
+- 🎭 **Постановки** – аудио/видео постановки, скетчи, дабберские проекты.
+- 📱 **Адаптивный дизайн** – корректное отображение на десктопах, планшетах и смартфонах.
+- 🧩 **Кастомный видеоплеер** на базе [Video.js](https://videojs.com/) с поддержкой субтитров и качеств.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Технологический стек
 
-## Expanding the ESLint configuration
+- **Frontend:** React, React Router
+- **Стилизация:** CSS Modules / SCSS (или указать конкретное решение)
+- **Видеоплеер:** Video.js + плагины
+- **Сборка:** Vite
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Установка и запуск
+
+### Требования
+- Node.js >= 18
+- npm >= 9 или yarn
+
+### Локальный запуск
+
+1. Клонируйте репозиторий:
+   ```bash
+   git clone https://github.com/your-username/dosdub-website.git
+   cd dosdub-website
+
+2. Установите зависимости:
+  
+  ```bash
+    npm install
+  ```
+
+3.Запустите dev-сервер:
+
+  ```bash
+  npm run dev
+  ```
+Приложение откроется по адресу http://localhost:5173 (Я использую Vite).
+   
+## 🧪 Статус проекта
+
+⏳ **В разработке**  
+Реализована базовая архитектура, настроен роутинг и плеер. Ведётся работа над страницами аниме, музыкальным разделом и адаптивной вёрсткой.
+
+Следите за прогрессом в разделе [Projects](https://github.com/FoxWolf2004/dos_Dub_react/projects) или [Issues](https://github.com/FoxWolf2004/dos_Dub_reactissues).
+
+## 🤝 Как помочь проекту
+
+Если у вас есть идеи или вы нашли баг, создайте [Issue](https://github.com/FoxWolf2004/dos_Dub_react/issues/new). Pull request’ы приветствуются после предварительного обсуждения.
+
+## 📄 Лицензия
+
+Проект распространяется под лицензией MIT. Подробнее в файле [LICENSE](LICENSE).
