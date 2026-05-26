@@ -27,3 +27,15 @@ body{
     justify-content: center;
 }
 
+
+main {
+    
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    min-height: 1080px;
+    height: auto;
+    
+    background: linear-gradient(141deg, rgb(15,198,238) 0%, rgb(0,167,243) 25%, rgb(41,130,234) 50%, rgb(119,82,202) 75%, rgb(154,0,154) 100%);
+}

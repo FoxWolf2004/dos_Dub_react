@@ -5,9 +5,10 @@ const Navigation = () => {
 
         <nav>
             <div className={styles.buttons}>
-                <ButtonBlack  text={"Озвучки"}></ButtonBlack>
-                <ButtonBlack  text={"Постановки"}></ButtonBlack>
-                <ButtonBlack  text={"Песни"}></ButtonBlack>
+                <ButtonBlack  text={"Озвучки"} route="/dubs"></ButtonBlack>
+                <ButtonBlack  text={"Постановки"} route="/productions"></ButtonBlack>
+                <ButtonBlack  text={"Песни"} route="/music"></ButtonBlack>
+                
             </div>
 
         </nav>
