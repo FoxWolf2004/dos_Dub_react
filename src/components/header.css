@@ -16,7 +16,7 @@ header > .wrapper {
     display: flex;
 
     height: 100%;
-
+    cursor: pointer;
     flex-direction: row;
 
 }

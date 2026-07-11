@@ -1,0 +1,17 @@
+.newbe {
+    display: grid;
+    
+
+    width: 100%;
+    height: auto;
+
+    margin: 0 auto;
+    background-color: aliceblue;
+    padding: 20px;
+    
+    border-radius: 20px;
+    
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    justify-content: space-between;
+}

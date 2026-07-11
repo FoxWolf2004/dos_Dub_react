@@ -1,0 +1,33 @@
+.Hero{
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: space-between;
+
+    margin: 0 auto;
+    width: 60%;
+    height: auto;
+    gap: 10px;
+
+    font-size: 2rem;
+    color: white;
+}
+
+.Hero img {
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    height: auto;
+
+}
+
+.herotext {
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+    text-align: center;
+    
+}

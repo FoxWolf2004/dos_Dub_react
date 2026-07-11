@@ -9,13 +9,16 @@ body{
 }
 .wrapper {
     display: flex;
+    
+    flex-direction: column;
 
     max-width: 1440px;
     width: 100%;
-    padding: 0 15px;
     height: auto;
-
+    gap: 100px;
     margin: 0 auto;
+
+    
 }
 
 .imgCenter {
@@ -36,6 +39,18 @@ main {
     width: 100%;
     min-height: 1080px;
     height: auto;
-    
+    padding: 20px 0;
+
+
     background: linear-gradient(141deg, rgb(15,198,238) 0%, rgb(0,167,243) 25%, rgb(41,130,234) 50%, rgb(119,82,202) 75%, rgb(154,0,154) 100%);
+}
+
+.movieNew {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+    gap: 30px;
+
+    padding: 100px 0;
 }

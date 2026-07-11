@@ -1,20 +1,23 @@
 import Header from '../components/Header'
 import Footer from '../components/footer'
 import "../app.css"
+import HeaderText from '../components/UI/HeaderText'
+import Newbe from './indexComponents/movieitems'
+import Hero from './indexComponents/hero'
+
+
 const Index = () => {
     return(
         <>
         <main>
             <div className='wrapper'>
-                            <div className="hero">
-                <img src="../assets/dos dub/logo.png" alt="" />
-                <div className="HeroText">
-                    <h1>DosDub</h1>
-                    <p>Конструктивные озвучкеры</p>
-                </div>
 
-            
-            </div>
+                    <Hero></Hero>
+                    <div className='movieNew'>
+                        <HeaderText text={"Новинки"}/>
+                        <Newbe></Newbe>
+                    </div>
+
 
             </div>
 

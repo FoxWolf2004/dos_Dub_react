@@ -4,6 +4,11 @@ const Footer = () => {
         <footer>
             <div className="wrapper">
 
+
+                <div className='soceal'>
+                    <img src="" alt="ютуб" />
+                    <img src="" alt="вк" />
+                </div>
                 
             </div>
         </footer>
