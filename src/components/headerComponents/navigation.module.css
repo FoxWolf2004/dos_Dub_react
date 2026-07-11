@@ -1,0 +1,28 @@
+nav {
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+
+    
+}
+
+.buttons button {
+    cursor: pointer;
+}
+
+button {
+    transition-timing-function: linear;
+    transition-duration: 200ms;
+}
+
+button:hover{
+    transform: scale(1.03);
+}

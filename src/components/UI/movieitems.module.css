@@ -1,0 +1,13 @@
+.Movieitems {
+    display: grid;
+    
+
+    width: 90%;
+    height: auto;
+
+    margin: 0 auto;
+
+    grid-template-columns: auto auto auto auto;
+    gap: 15px;
+    justify-content: space-between;
+}
